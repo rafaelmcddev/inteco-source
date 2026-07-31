@@ -15,8 +15,8 @@ if(ENVIRONMENT == 'development') {
 	define("BASE_URL", "http://www.inteco.com.br/novo/");
 	$config['dbname'] = 'intecoc_inteco2018';
 	$config['host'] = 'localhost';
-	$config['dbuser'] = 'intecoc_admin';
-	$config['dbpass'] = 'Admin3b2a1.';
+	$config['dbuser'] = 'root';
+	$config['dbpass'] = '';
 }
 
 $db = new PDO("mysql:dbname=".$config['dbname'].";host=".$config['host'], $config['dbuser'], $config['dbpass']);
